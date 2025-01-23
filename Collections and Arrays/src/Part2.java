@@ -14,12 +14,12 @@ public class Part2 {
                 "In our yellow submarine";
 
 
-        List<String> wordList = new ArrayList<>(Arrays.asList(lyrics));
+        List<String> wordList = new ArrayList<>(Arrays.asList(lyrics.split("\\s+")));
 
 
         List<String> cleanedwords = new ArrayList<>();
         for (String word : wordList) {
-            cleanedwords.add(word.replaceAll("[,\\.]", "").toLowerCase());
+            cleanedwords.add(word.replaceAll("[,\\.\\n]", "").toLowerCase());
         }
 
         Map<String, Integer> wordCount = new HashMap<>();

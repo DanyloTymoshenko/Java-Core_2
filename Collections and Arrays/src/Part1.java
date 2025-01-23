@@ -19,7 +19,7 @@ public class Part1 {
         //Step 3 LowerCase
         cleaned_lyrics = cleaned_lyrics.toLowerCase();
         //Step4 To Array
-        String[] words = cleaned_lyrics.split(" ");
+        String[] words = cleaned_lyrics.split("\\s+");
 
 
         //Step 5 Count words
@@ -38,10 +38,10 @@ public class Part1 {
 
         wordsList.removeIf(word -> word.equals("yellow") || word.equals("submarine"));
 
-        String Result = String.join(" ", wordsList);
+        String result = String.join(" ", wordsList);
         System.out.println("/////////// PART 3 ////////////////");
         System.out.println("Lyrics after removing 'yellow' and 'submarine' : ");
-        System.out.println(Result);
+        System.out.println(result);
 
     }
 }

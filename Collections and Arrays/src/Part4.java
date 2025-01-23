@@ -2,7 +2,7 @@ import java.io.*;
 
 class BeatlesException extends Exception {
     public BeatlesException(String message) {
-        super(message);
+        super("Beatles: " + message);
     }
 }
 
@@ -65,7 +65,7 @@ public class Part4 {
 
     private static void verifyStringInSong(String song, String randomString) throws BeatlesException {
         if (!song.toLowerCase().contains(randomString.toLowerCase())) {
-            throw new BeatlesException("The string\"" + randomString + "\" was not foun in the song");
+            throw new BeatlesException("The string\"" + randomString + "\" was found in the song");
 
         }
         System.out.println("the string \"" + randomString + "\" was not found in the song. ");

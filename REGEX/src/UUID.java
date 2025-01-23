@@ -15,9 +15,10 @@ public class UUID {
             String foundSubstring = matcher.group(); // Find and return orderUUID substring from string
             System.out.println("True  at position " + matcher.start()); // Find and return true if String contains orderUUID
             System.out.println("Substring " + foundSubstring);
-        } else {
+        } if(!matcher.find()) {
             System.out.println("False" + matcher.group() + " at position " + matcher.start()); // Find and return false if String does not contain orderUUID
         }
+
         // Find Email string
         String email = "test 2667843 (test_email@griddynamics.com) test 67483 some string ";
         String regex1 = "\\btest_email@griddynamics.com\\b";
