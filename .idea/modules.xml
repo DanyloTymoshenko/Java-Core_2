@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Collections and Arrays/Collections and Arrays.iml" filepath="$PROJECT_DIR$/Collections and Arrays/Collections and Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-Core_2.iml" filepath="$PROJECT_DIR$/Java-Core_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PRINT the words on .de./PRINT the words on .de..iml" filepath="$PROJECT_DIR$/PRINT the words on .de./PRINT the words on .de..iml" />
+      <module fileurl="file://$PROJECT_DIR$/REGEX/REGEX.iml" filepath="$PROJECT_DIR$/REGEX/REGEX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task2/Task2.iml" filepath="$PROJECT_DIR$/Task2/Task2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task4/Task4.iml" filepath="$PROJECT_DIR$/Task4/Task4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task3/task3.iml" filepath="$PROJECT_DIR$/task3/task3.iml" />
+    </modules>
+  </component>
+</project>
